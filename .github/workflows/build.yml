@@ -19,7 +19,7 @@ jobs:
       - name: Set gradew permissions
         run: chmod +x gradlew
       - name: Unit tests
-        run: ./gradlew ganttproject-tester
+        run: ./gradlew test
   build:
     name: Build and analyze
     runs-on: ubuntu-latest
